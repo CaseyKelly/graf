@@ -157,6 +157,18 @@ h5 {
   margin-top: 0px;
 }
 
+.cd-color-3 h3 {
+	font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+	padding-top: 10%;
+}
+
+.cd-color-3 p {
+	padding-top: 20%;
+}
+
 .cd-fixed-bg {
 	min-height: 100%;
 	background-size: cover;
@@ -188,4 +200,23 @@ h5 {
   min-height: 60%;
   background-color: #282828;
   position: relative;
+}
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 1;
+    font-size: 40px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    color: #909090;
+    background-color: #fff;
 }
