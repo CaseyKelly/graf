@@ -67,7 +67,8 @@ body, html, main {
   top: 40%;
   left: 35%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+	text-shadow: -1px 3px #000000;
 }
 
 .fa-github-square {
@@ -135,7 +136,8 @@ h1 {
   top: 40%;
   left: 60%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+	text-shadow: -1px 3px #000000;
 }
 
 h3 {
@@ -147,7 +149,7 @@ h3 {
 
 h5 {
   font-family: 'Ubuntu', sans-serif;
-  color: white;
+  color: #909090;
   font-size: 24px;
   margin-top: 0px;
   position: absolute;
