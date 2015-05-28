@@ -22,6 +22,10 @@
 @import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 
+* {
+	margin-bottom: 0px !important;
+}
+
 body, html, main {
 	height: 100%;
 }
