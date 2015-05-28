@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootswatch/yeti/variables";
+@import "bootstrap";
+@import "bootswatch/yeti/bootswatch";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body, html, main {
+	height: 100%;
+}
+
+.navbar {
+  background-color: #CCCCCC;
+  margin-bottom: 0px;
+}
+
+.fa-newspaper-o {
+  color: white;
+  font-size: 200px;
+  margin-top: 0px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 100px;
+  margin-top: 0px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 58%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+ background-color: #606060;
+ position: relative;
+}
+
+.cd-scrolling-bg {
+	min-height: 100%;
+}
