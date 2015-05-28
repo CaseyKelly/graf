@@ -81,8 +81,24 @@ h3 {
 .cd-fixed-bg.cd-bg-1 {
  background-color: #606060;
  position: relative;
+ margin-bottom: 0px;
+
 }
 
-.cd-scrolling-bg {
-	min-height: 100%;
+.cd-scrolling-bg.cd-color-2 {
+  min-height: 50%;
+  background-color: #F0F0F0;
+  position: relative;
+}
+
+.cd-scrolling-bg.cd-color-3 {
+  min-height: 100%;
+  background-color: #909090;
+  position: relative;
+}
+
+.cd-scrolling-bg.cd-color-4 {
+  min-height: 80%;
+  background-color: #282828;
+  position: relative;
 }
