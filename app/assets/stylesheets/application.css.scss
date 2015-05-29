@@ -151,7 +151,7 @@ h3 {
 
 h5 {
   font-family: 'Ubuntu', sans-serif;
-  color: #909090;
+  color: white;
   font-size: 24px;
   margin-top: 0px;
   position: absolute;
@@ -176,6 +176,7 @@ h5 {
 
 .container-two h3 {
 	font-family: 'Ubuntu', sans-serif;
+	line-height: 150%;
   color: black;
   font-size: 40px;
   margin-top: 0px;
@@ -184,6 +185,7 @@ h5 {
 
 .cd-color-3 h3 {
 	font-family: 'Ubuntu', sans-serif;
+	line-height: 150%;
   color: white;
   font-size: 40px;
   margin-top: 0px;
@@ -203,7 +205,7 @@ h5 {
 }
 
 .cd-fixed-bg.cd-bg-1 {
- background-color: #253237;
+ background-color: #606060;
  position: relative;
  margin-bottom: 0px;
 
@@ -223,7 +225,7 @@ h5 {
 
 .cd-scrolling-bg.cd-color-4 {
   min-height: 60%;
-  background-color: #253237;
+  background-color: #282828;
   position: relative;
 }
 
