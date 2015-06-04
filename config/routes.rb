@@ -2,6 +2,6 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  resources :posts
+  resources :posts, only: [:index, :show]
 
 end
