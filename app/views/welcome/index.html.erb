@@ -34,6 +34,40 @@
 				<h3>
 					Paste your headline, subhead, byline, and text.<br> Upload your photos.<br> Share the post to social media.
 				</h3>
+				<%= form_for(@post, html: {:class => "form-horizontal"}) do |f| %>
+				<div class="form-group">
+				  <div class="field">
+				    <%= f.label :headline, class: 'control-label col-md-4' %>
+				    <div class='form-controls col-md-4'>
+				      <%= f.text_field :headline, class: 'form-control' %>
+				    </div>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <div class="field">
+				    <%= f.label :subhead, class: 'control-label col-md-4' %>
+				    <div class='form-controls col-md-4'>
+				      <%= f.text_field :subhead, class: 'form-control' %>
+				    </div>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <div class="field">
+				    <%= f.label :byline, class: 'control-label col-md-4' %>
+				    <div class='form-controls col-md-4'>
+				      <%= f.text_field :byline, class: 'form-control' %>
+				    </div>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <div class="field">
+				    <%= f.label :main_body, 'Main Text', class: 'control-label col-md-4' %>
+				    <div class='form-controls col-md-4'>
+				      <%= f.text_area :main_body, class: 'form-control', :cols => "30", :rows => "10" %>
+				    </div>
+				  </div>
+				</div>
+				<% end %>
 				<p>
 					<button>CHECK IT OUT</button>
 				</p>
