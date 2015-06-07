@@ -6,11 +6,11 @@ class WelcomeController < ApplicationController
 
   def create
     @post = Post.new(post_params)
-      if @post.save
-        redirect_to post_path(@post), notice: 'Post was successfully created.'
-      else
-        render :new
-      end
+    if @post.save
+      redirect_to post_path(@post), notice: 'Post was successfully created.'
+    else
+      render :index
+    end
   end
 
 end
