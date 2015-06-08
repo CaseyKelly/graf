@@ -1,17 +1,21 @@
-<h1><b><%= @post.headline %></b></h1>
-<h3><%= @post.subhead %></h3>
-<div class='col-md-8'>
-  <h5>By <%= @post.byline.upcase %></h5>
-</div>
+<!-- <img src="<%= @post.photo_url %>" style="width:100%;"> -->
 
-<div class='row'>
-  <div class='col-md-8' id='text'>
-    <p><%= @post.main_body.html_safe %></p>
+<div class='container'>
+  <h1><b><%= @post.headline %></b></h1>
+  <h3><%= @post.subhead %></h3>
+  <div class='col-md-8'>
+    <h5>By <%= @post.byline.upcase %></h5>
   </div>
-  <div class='col-md-4'>
-    <p><a href="https://twitter.com/intent/tweet?text=<%= @post.headline %> <%= request.original_url %>" data-size="large">
-      <i class="fa fa-twitter"></i>
-    </a></p>
+
+  <div class='row'>
+    <div class='col-md-8' id='text'>
+      <p><%= @post.main_body.html_safe %></p>
+    </div>
+    <div class='col-md-4'>
+      <p><a href="https://twitter.com/intent/tweet?text=<%= @post.headline %> <%= request.original_url %>" data-size="large">
+        <i class="fa fa-twitter"></i>
+      </a></p>
+    </div>
   </div>
 </div>
 
