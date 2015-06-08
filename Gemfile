@@ -15,10 +15,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 
-group :development, :test do
+group :development do
+  gem 'quiet_assets'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'pry-byebug'
-  gem 'better_errors'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
