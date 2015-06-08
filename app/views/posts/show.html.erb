@@ -1,3 +1,33 @@
 <h1><b><%= @post.headline %></b></h1>
-<h3><%= @post.subhead %></h3>
-<p><%= @post.main_body.html_safe %></p>
+<div class='col-md-8'>
+  <h3><%= @post.subhead %></h3>
+  <h5><p>By <%= @post.byline.upcase %></p></h5>
+</div>
+
+<div class='row'>
+  <div class='col-md-8' id='text'>
+    <p><%= @post.main_body.html_safe %></p>
+  </div>
+  <div class='col-md-4'>
+    <a href="https://twitter.com/intent/tweet?text=<%= @post.headline %>" data-size="large">
+      <i class="fa fa-twitter"></i>
+    </a>
+  </div>
+</div>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
