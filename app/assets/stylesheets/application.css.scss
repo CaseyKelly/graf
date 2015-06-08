@@ -31,6 +31,33 @@ body, html, main {
 	height: 100%;
 }
 
+iframe {
+	background-color: white;
+}
+
+.ql-toolbar-container {
+	background-color: white;
+}
+
+#check-it-out {
+	transition: all .4s ease;
+	color: #fff;
+	border: 3px solid white;
+	font-family:'Ubuntu', sans-serif;
+	text-align: center;
+	line-height: 1;
+	font-size: 40px;
+	background-color : transparent;
+	padding: 10px;
+	outline: none;
+	border-radius: 10px;
+}
+
+#check-it-out:hover {
+    color: #5C6B73;
+    background-color: #fff;
+}
+
 #screenshot {
 	max-width: 90%;
 	display: inline-block;
@@ -245,23 +272,4 @@ h5 {
   min-height: 60%;
   background-color: #282828;
   position: relative;
-}
-
-button {
-    transition: all .4s ease;
-    color: #fff;
-    border: 3px solid white;
-    font-family:'Ubuntu', sans-serif;
-    text-align: center;
-    line-height: 1;
-    font-size: 40px;
-    background-color : transparent;
-    padding: 10px;
-    outline: none;
-    border-radius: 10px;
-}
-
-button:hover {
-    color: #5C6B73;
-    background-color: #fff;
 }

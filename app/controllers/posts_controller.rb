@@ -15,7 +15,7 @@ class PostsController < ApplicationController
   end
 
   def post_params
-    params.require(:post).permit(:headline, :subhead, :byline, :text_body)
+    params.require(:post).permit(:headline, :subhead, :byline, :main_body)
   end
 
 end

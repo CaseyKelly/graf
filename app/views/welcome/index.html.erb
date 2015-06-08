@@ -61,17 +61,14 @@
 					</div>
 					<div class="form-group">
 					  <div class="field">
-					    <%= f.label :main_body, 'Main Text', class: 'control-label col-md-4' %>
-					    <div class='form-controls col-md-4'>
-					      <%= f.text_area :main_body, class: 'form-control', :cols => "30", :rows => "10" %>
+					    <%= f.label :main_body, 'Main Text', class: 'control-label col-md-3' %>
+					    <div class='form-controls col-md-6'>
+								<%= quill_editor nil, {class: 'form-control', name: 'post[main_body]'} %>
 					    </div>
 					  </div>
 					</div>
-					<%= f.submit 'CHECK IT OUT', class: 'btn btn-info' %>
+					<%= f.submit 'CHECK IT OUT', class: 'btn btn-info', id: 'check-it-out' %>
 				<% end %>
-				<p>
-					<button>CHECK IT OUT</button>
-				</p>
 			</center>
 		</div>
 	</div>
