@@ -95,6 +95,8 @@ GEM
       pry (>= 0.9.10)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
+    quill-rails (0.1.4)
+      railties (>= 3.1.0, < 5.0)
     rack (1.6.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -171,6 +173,7 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   quiet_assets
+  quill-rails (~> 0.1.0)
   rails (= 4.2.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
