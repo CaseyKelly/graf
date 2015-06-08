@@ -2,6 +2,7 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find(params[:id])
+    render layout: 'presentation'
   end
 
   def create
@@ -9,7 +10,7 @@ class PostsController < ApplicationController
       if @post.save
         redirect_to post_path(@post), notice: 'Post was successfully created.'
       else
-        render :index
+        redirect_to root_path
       end
   end
 
