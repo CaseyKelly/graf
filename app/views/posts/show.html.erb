@@ -9,7 +9,7 @@
     <p><%= @post.main_body.html_safe %></p>
   </div>
   <div class='col-md-4'>
-    <p><a href="https://twitter.com/intent/tweet?text=<%= request.original_url %>" data-size="large">
+    <p><a href="https://twitter.com/intent/tweet?text=<%= @post.headline %> <%= request.original_url %>" data-size="large">
       <i class="fa fa-twitter"></i>
     </a></p>
   </div>
