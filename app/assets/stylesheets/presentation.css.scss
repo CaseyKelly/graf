@@ -40,7 +40,11 @@ p {
 }
 
 .main-photo {
-  max-height: 60%;
+  min-height: 60%;
   overflow: hidden;
   box-shadow: 1px 1px 1px 1px #909090;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
 }

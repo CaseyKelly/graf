@@ -6,7 +6,7 @@
     <div class="subhead">
       <center>
         <h3>Turn your text into a template. Make your stories look awesome.</h3>
-				<i class="fa fa-chevron-circle-down"></i>
+				<%= link_to '<i class="fa fa-chevron-down" id="chevron"></i>'.html_safe, "#panel-two" %>
       </center>
     </div>
 	</div>
@@ -14,7 +14,7 @@
 	<div class="cd-scrolling-bg cd-color-2">
 		<div class="cd-container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6" name="panel-two">
 					<div class="container-two">
 						<center>
 							<h3>Paste text from a story or blog post and automatically generate the content in a beautiful layout.</h3>

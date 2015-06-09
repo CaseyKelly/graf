@@ -1,11 +1,11 @@
-<div class='main-photo'>
-  <img src="<%= @post.photo_url %>" style="width:100%;">
+<div class='main-photo' style="width:100%;background-image: url('<%= @post.photo_url %>');">
+  <!-- <div style="width:100%;background-image: image-url('<%= @post.photo_url %>'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;background-position: center center;"> -->
 </div>
 
 <div class='container'>
   <h1><b><%= @post.headline %></b></h1>
-  <h3><%= @post.subhead %></h3>
   <div class='col-md-8'>
+    <h3><%= @post.subhead %></h3>
     <h5>By <%= @post.byline.upcase %></h5>
   </div>
 

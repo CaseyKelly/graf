@@ -37,6 +37,7 @@ input {
 
 iframe {
 	background-color: white;
+	height: 500px;
 }
 
 .ql-toolbar-container {
@@ -52,10 +53,9 @@ iframe {
 	line-height: 1;
 	font-size: 5em;
 	background-color : transparent;
-	padding: 10px;
+	padding: 1%;
 	outline: none;
 	border-radius: 10px;
-	margin-top: 3%;
 }
 
 #check-it-out:hover {
@@ -106,6 +106,18 @@ iframe {
 }
 
 .fa-chevron-circle-down {
+	color: white;
+  font-size: 8em;
+	position: absolute;
+  top: 235%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+	text-shadow: -1px 1px #000000;
+	cursor:pointer;
+}
+
+.fa-chevron-down {
 	color: white;
   font-size: 5em;
 	position: absolute;
@@ -281,7 +293,7 @@ h5 {
 }
 
 .cd-scrolling-bg.cd-color-3 {
-  min-height: 120%;
+  min-height: 150%;
 	background-image:  linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
