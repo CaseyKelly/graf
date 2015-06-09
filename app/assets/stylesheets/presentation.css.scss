@@ -6,6 +6,10 @@
 @import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 
+body, html, main {
+  height: 100%;
+}
+
 h1 {
   font-size: 3em;
   font-family: 'Libre Baskerville', serif;
@@ -31,8 +35,7 @@ h5 {
 }
 
 .main-photo {
-  max-height: 400px;
-  position: relative;
+  max-height: 60%;
   overflow: hidden;
   box-shadow: 1px 1px 1px 1px #909090;
 }
