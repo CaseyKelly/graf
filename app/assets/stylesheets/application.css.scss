@@ -103,7 +103,12 @@ iframe {
 .fa-chevron-circle-down {
 	color: white;
   font-size: 5em;
-	margin-top: 20%;
+	position: absolute;
+  top: 400%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+	text-shadow: -1px 1px #000000;
 }
 
 .fa-github-square {
@@ -249,6 +254,10 @@ h5 {
 
 .cd-fixed-bg {
 	min-height: 100%;
+	background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("main-background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -256,10 +265,9 @@ h5 {
 }
 
 .cd-fixed-bg.cd-bg-1 {
- background-color: #465866;
- position: relative;
- margin-bottom: 0px;
-
+//  background-color: #465866;
+	position: relative;
+	margin-bottom: 0px;
 }
 
 .cd-scrolling-bg.cd-color-2 {
@@ -270,12 +278,12 @@ h5 {
 
 .cd-scrolling-bg.cd-color-3 {
   min-height: 120%;
-  background-color: #5C6B73;
+	background-color: #635446;
   position: relative;
 }
 
 .cd-scrolling-bg.cd-color-4 {
   min-height: 60%;
-  background-color: #282828;
+  background-color: #322620;
   position: relative;
 }
