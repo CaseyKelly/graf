@@ -15,9 +15,7 @@
  */
 
 @import "bootstrap-sprockets";
-@import "bootswatch/yeti/variables";
 @import "bootstrap";
-@import "bootswatch/yeti/bootswatch";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
@@ -30,6 +28,11 @@
 
 body, html, main {
 	height: 100%;
+}
+
+input {
+	border: 0;
+	border-radius: 10px;
 }
 
 iframe {
@@ -56,7 +59,7 @@ iframe {
 }
 
 #check-it-out:hover {
-    color: #635446;
+    color: #000000;
     background-color: #fff;
 }
 
@@ -279,12 +282,19 @@ h5 {
 
 .cd-scrolling-bg.cd-color-3 {
   min-height: 120%;
-	background-color: #635446;
+	background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), image-url("main-background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
   position: relative;
 }
 
 .cd-scrolling-bg.cd-color-4 {
   min-height: 60%;
-  background-color: #322620;
+  background-color: #150F0D;
   position: relative;
 }
