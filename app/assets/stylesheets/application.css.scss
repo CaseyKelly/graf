@@ -24,6 +24,8 @@
 
 * {
 	margin-bottom: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
 }
 
 body, html, main {
@@ -54,7 +56,7 @@ iframe {
 }
 
 #check-it-out:hover {
-    color: #5C6B73;
+    color: #635446;
     background-color: #fff;
 }
 
@@ -104,7 +106,7 @@ iframe {
 	color: white;
   font-size: 5em;
 	position: absolute;
-  top: 400%;
+  top: 230%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -122,7 +124,7 @@ iframe {
 }
 
 .fa-github-square:hover {
-	color: #5C6B73;
+	color: #635446;
 	}
 
 .fa-twitter-square {
@@ -136,7 +138,7 @@ iframe {
 }
 
 .fa-twitter-square:hover {
-	color: #5C6B73;
+	color: #635446;
 	}
 
 .fa-linkedin-square {
@@ -150,7 +152,7 @@ iframe {
 }
 
 .fa-linkedin-square:hover {
-	color: #5C6B73;
+	color: #635446;
 	}
 
 .fa-pencil-square {
@@ -164,7 +166,7 @@ iframe {
 }
 
 .fa-pencil-square:hover {
-	color: #5C6B73;
+	color: #635446;
 	}
 
 .control-label {
@@ -265,7 +267,6 @@ h5 {
 }
 
 .cd-fixed-bg.cd-bg-1 {
-//  background-color: #465866;
 	position: relative;
 	margin-bottom: 0px;
 }
