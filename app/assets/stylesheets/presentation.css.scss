@@ -10,6 +10,15 @@ body, html, main {
   height: 100%;
 }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.fa:hover {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 3em;
   font-family: 'Libre Baskerville', serif;
