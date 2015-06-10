@@ -10,10 +10,6 @@ body, html, main {
   height: 100%;
 }
 
-#footer {
-  display: hidden;
-}
-
 h1 {
   font-size: 3em;
   font-family: 'Libre Baskerville', serif;
@@ -22,8 +18,9 @@ h1 {
 h5 {
   padding-top: 1%;
   padding-bottom: 1%;
-  color: #008CBA;
+  color: red;
   text-align: justify;
+  text-decoration: underline;
 }
 
 p {
@@ -35,7 +32,6 @@ p {
 }
 
 .col-md-4 {
-  margin-top: 5%;
   padding-left: 5%;
 }
 

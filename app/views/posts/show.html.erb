@@ -14,9 +14,22 @@
       <p><%= @post.main_body.html_safe %></p>
     </div>
     <div class='col-md-4'>
-      <p><a href="https://twitter.com/intent/tweet?text=<%= @post.headline %> <%= request.original_url %>" data-size="large">
-        <i class="fa fa-twitter"></i>
-      </a></p>
+      <p>
+        <center>
+        <a href="https://twitter.com/intent/tweet?text=<%= @post.headline %> <%= request.original_url %>" data-size="large">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+        <a href="http://www.facebook.com/sharer/sharer.php?u=<%= request.original_url %>">
+          <i class="fa fa-facebook-square"></i>
+        </a>
+        <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false">
+          <i class="fa fa-reddit-square"></i>
+        </a>
+        <a href="http://pinterest.com/pin/create/button/?url=<%= request.original_url %>" class="pin-it-button" count-layout="horizontal">
+          <i class="fa fa-pinterest-square"></i>
+        </a>
+        </center>
+      </p>
       <div id="disqus_thread"></div>
       <script type="text/javascript">
           /* * * CONFIGURATION VARIABLES * * */
