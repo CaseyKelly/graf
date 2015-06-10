@@ -1,1 +1,29 @@
-OOPS
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Graf</title>
+  <%= favicon_link_tag 'newspaper.png' %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <main>
+  	<div class="cd-fixed-bg cd-bg-1">
+      <div class='row'>
+  			<div class='col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3'>
+  				<h1 class='text-center'><i class="fa fa-newspaper-o"></i> Oops...</h1>
+  			</div>
+  		</div>
+      <div class="subhead">
+        <center>
+          <h3>This page doesn't exist.</h3>
+  				<%= link_to 'Go Back', root_path, class: 'btn btn-info' %>
+        </center>
+      </div>
+  	</div>
+  </main>
+
+</body>
+</html>
