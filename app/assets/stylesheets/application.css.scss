@@ -63,27 +63,13 @@ iframe {
 }
 
 #screenshot {
+	margin-top: 15%;
 	max-width: 90%;
 	display: inline-block;
   vertical-align: middle;
 	border: 0;
 	border-radius: 10px;
 	box-shadow: 1px 3px 3px 1px #909090;
-}
-
-.centerer {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-#screenshot-md-6 {
-	display:table-cell;
-	vertical-align:middle;
-	text-align:center;
-	position: absolute;
-  top: 10%;
-  left: 50%;
 }
 
 .navbar {
